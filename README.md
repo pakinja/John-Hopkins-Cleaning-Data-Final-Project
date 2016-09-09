@@ -17,4 +17,5 @@
 14. Change variable names for tidy set
 15. Subset for mean and std variables
 16. Create Tidy data and write tidy.txt
+
 ##### Please consider that the raw view of tidy.txt may dearrenge the set.
