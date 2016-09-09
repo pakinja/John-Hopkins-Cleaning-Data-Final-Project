@@ -55,7 +55,7 @@
 * TBAstdX
 * TBAstdY
 * TBAstdZ
-*TGAstdX
+* TGAstdX
 * TGAstdY
 * TGAstdZ
 * TBAJerkstdX
