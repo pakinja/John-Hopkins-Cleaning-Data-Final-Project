@@ -1,5 +1,5 @@
 ############################################
-# 1.
+# 1.   Used Libraries
 
 library(data.table)
 library(dplyr)
@@ -104,10 +104,8 @@ nomsel_1 <- c(nomsel_mean, nomsel_std)
 ext <- prueba[, nomsel, with = FALSE]
 ext$Subject <- as.factor(ext$Subject)
 ###################################################
-# 16.   Calculate mean
+# 16.   Create Tidy data and write tidy.txt
 setkey(prueba, Subject, Activity)
-###################################################
-# 17. Create Tidy data and write tidy.txt
 ext.melted <- melt(ext, id = c("Subject", "Activity"))
 tidy <-dcast(ext.melted, Subject + Activity ~ variable, mean)
 write.xlsx(tidy, "C:/Users/Francisco/Documents/proyectos/John Hopkins/final/tidy.xlsx")
