@@ -1,5 +1,6 @@
 # Code Book for Final Project
-### This code book contains all the information about the analysis made for the final project
+### This code book contains all the information about the analysis made for the final project.
+#### Please consider that the raw view of tidy.txt may dearrenge the set.
 
 ## Individuals and Actions
 * Subject (individuals labels 1-30)
