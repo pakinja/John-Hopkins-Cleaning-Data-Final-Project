@@ -1,9 +1,11 @@
 # Code Book for Final Project
 ### This code book contains all the information about the analysis made for the final project
 
+## Individuals and Actions
+* Subject (individuals labels 1-30)
+* Activity (Meassured Action -see bottom-)
+
 ##Features (names)
-* Subject
-* Activity
 * TBAmeanX
 * TBAmeanY
 * TBAmeanZ
