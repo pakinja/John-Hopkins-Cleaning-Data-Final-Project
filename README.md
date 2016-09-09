@@ -1,2 +1,4 @@
 # John-Hopkins-Cleaning-Data-Final-Project
-Final projecto files
+## Final project R script explanation
+
+
